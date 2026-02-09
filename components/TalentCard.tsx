@@ -12,9 +12,9 @@ interface TalentCardProps {
 export const TalentCard: React.FC<TalentCardProps> = ({ talent, condensed = false }) => {
   // Placeholder visual using gradient and icon
   const ProfileImage = () => (
-    <div className={`w-full ${condensed ? 'h-64' : 'h-80'} relative overflow-hidden group-hover:opacity-90 transition-opacity`}>
+    <div className={`w-full ${condensed ? 'aspect-[3/4]' : 'aspect-[2/3]'} relative overflow-hidden group-hover:opacity-90 transition-opacity`}>
         {talent.image ? (
-          <img src={talent.image} alt={talent.name} className="w-full h-full object-cover object-center" />
+          <img src={talent.image} alt={talent.name} className="w-full h-full object-cover object-top" />
         ) : (
           <div className={`w-full h-full bg-gradient-to-b ${talent.imageGradient} flex items-end justify-center`}>
             <User size={condensed ? 120 : 160} className="text-black opacity-40 translate-y-4" fill="currentColor" />

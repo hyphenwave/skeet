@@ -74,11 +74,144 @@ export const TALENT_ROSTER: Talent[] = [
   }
 ];
 
+export const AVAILABLE_NOW: Talent[] = [
+  {
+    id: "a1",
+    name: "Emma Hix",
+    rating: 4.9,
+    reviews: 512,
+    specialties: ["Hype Energy", "Diamond Hands"],
+    rate: 45000,
+    bio: "I turn red candles green just by showing up.",
+    isOnline: true,
+    badges: ["VERIFIED"],
+    imageGradient: "from-pink-400 to-rose-500",
+    image: "/emma_hix.jpg"
+  },
+  {
+    id: "a2",
+    name: "Penelope Kay",
+    rating: 4.8,
+    reviews: 377,
+    specialties: ["FOMO Generation", "Shilling"],
+    rate: 38000,
+    bio: "Your chart will look better after I'm done with it.",
+    isOnline: true,
+    badges: ["RISING STAR"],
+    imageGradient: "from-violet-400 to-purple-500",
+    image: "/penelope_kay.jpg"
+  },
+  {
+    id: "a3",
+    name: "Lana Rhoades",
+    rating: 5.0,
+    reviews: 2100,
+    specialties: ["Alpha Calls", "Whale Magnet"],
+    rate: 120000,
+    bio: "When I shill, whales listen. Simple as that.",
+    isOnline: true,
+    badges: ["TOP RATED", "PREMIUM"],
+    imageGradient: "from-amber-400 to-orange-500",
+    image: "/lana_rhoades.jpg"
+  },
+  {
+    id: "a4",
+    name: "Alexa Grace",
+    rating: 4.7,
+    reviews: 290,
+    specialties: ["Community Building", "AMA Host"],
+    rate: 35000,
+    bio: "I'll make your community feel like family. A degen family.",
+    isOnline: true,
+    badges: ["VERIFIED"],
+    imageGradient: "from-sky-400 to-blue-500",
+    image: "/alexa_grace.jpg"
+  },
+  {
+    id: "a5",
+    name: "Anya Olsen",
+    rating: 4.8,
+    reviews: 445,
+    specialties: ["Chart Reading", "Hopium Dealer"],
+    rate: 40000,
+    bio: "That's a triple bottom reversal. Trust the process.",
+    isOnline: true,
+    badges: ["FAN FAVORITE"],
+    imageGradient: "from-teal-400 to-cyan-500",
+    image: "/anya_olsen.jpg"
+  },
+  {
+    id: "a6",
+    name: "Ella Knox",
+    rating: 4.9,
+    reviews: 610,
+    specialties: ["Pump Specialist", "Raid Leader"],
+    rate: 55000,
+    bio: "I don't just pump bags. I send them to the stratosphere.",
+    isOnline: true,
+    badges: ["VERIFIED"],
+    imageGradient: "from-red-400 to-pink-500",
+    image: "/ella_knox.jpg"
+  },
+  {
+    id: "a7",
+    name: "Britney Amber",
+    rating: 4.6,
+    reviews: 320,
+    specialties: ["FUD Destroyer", "Hype Machine"],
+    rate: 32000,
+    bio: "FUD doesn't stand a chance when I'm on stream.",
+    isOnline: true,
+    badges: ["BEST VALUE"],
+    imageGradient: "from-lime-400 to-green-500",
+    image: "/britney_amber.jpg"
+  },
+  {
+    id: "a8",
+    name: "Becky Bandini",
+    rating: 4.7,
+    reviews: 480,
+    specialties: ["Emotional Support", "HODL Coach"],
+    rate: 42000,
+    bio: "I'll hold your hand through the dip. And the next one.",
+    isOnline: true,
+    badges: ["VERIFIED"],
+    imageGradient: "from-fuchsia-400 to-purple-500",
+    image: "/becky_bandini.jpg"
+  },
+  {
+    id: "a9",
+    name: "Mandy Muse",
+    rating: 4.8,
+    reviews: 555,
+    specialties: ["ASMR Shilling", "Whale Whisperer"],
+    rate: 48000,
+    bio: "My voice alone has caused three 100x pumps.",
+    isOnline: true,
+    badges: ["RISING STAR"],
+    imageGradient: "from-indigo-400 to-violet-500",
+    image: "/mandy_muse.jpg"
+  },
+  {
+    id: "a10",
+    name: "Angela White",
+    rating: 5.0,
+    reviews: 1800,
+    specialties: ["Alpha Calls", "Dev Intimidation"],
+    rate: 95000,
+    bio: "I've never seen a chart go down while I'm streaming. Ever.",
+    isOnline: true,
+    badges: ["TOP RATED", "VERIFIED"],
+    imageGradient: "from-yellow-400 to-amber-500",
+    image: "/angela_white.jpg"
+  },
+];
+
 export const SERVICE_PACKAGES: ServicePackage[] = [
   {
     id: "basic",
     name: "QUICK PUMP",
-    price: 250,
+    price: 25000,
     duration: "15 minutes",
     features: [
       "Basic shilling",
@@ -93,7 +226,7 @@ export const SERVICE_PACKAGES: ServicePackage[] = [
   {
     id: "full",
     name: "FULL SERVICE",
-    price: 750,
+    price: 75000,
     duration: "1 hour",
     isPopular: true,
     features: [
@@ -108,7 +241,7 @@ export const SERVICE_PACKAGES: ServicePackage[] = [
   {
     id: "premium",
     name: "PREMIUM EXPERIENCE",
-    price: 2500,
+    price: 250000,
     duration: "3 hours",
     isPremium: true,
     features: [
@@ -126,24 +259,24 @@ export const SERVICE_PACKAGES: ServicePackage[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: "1",
-    name: "Anonymous Dev",
-    token: "$COPIUM",
-    quote: "Luna did a 2-hour stream for us. We 10x'd. My wife came back. Thank you TeamSkeet Talent.",
-    result: "+1,200% in 24h"
+    name: "0xMarc.sol",
+    token: "$WHITEWHALE",
+    quote: "Booked Riley Reid for a 2-hour pump.fun stream. Within 30 minutes the chart went vertical. We 10x'd before she even finished. Absolutely unreal ROI.",
+    result: "10x in 2 hours. 50x by morning."
   },
   {
     id: "2",
-    name: "Degen Dan",
-    token: "$SENDOOR",
-    quote: "Chad's energy is unmatched. He called out the contract address 47 times in one hour. Legend.",
-    result: "Sold out in 3 minutes"
+    name: "solandy.eth",
+    token: "$PNUT",
+    quote: "Angela White joined our stream and the buy pressure was instant. Whales started aping in within seconds. She read the contract address once and the token sold out.",
+    result: "$2M market cap in under 3 minutes."
   },
   {
     id: "3",
-    name: "Trapped Terry",
-    token: "$NOSELLDOOR",
-    quote: "We hired Diamond Destiny to shame paper hands. Worked too well. No one can sell now. Help.",
-    result: "∞ hold time"
+    name: "jpegmaxi_",
+    token: "$LAMB",
+    quote: "We brought in Lana Rhoades to hype our launch. The community went so diamond hands that literally no one will sell. Liquidity is locked forever. Send help.",
+    result: "0% sell pressure. Community still holding."
   }
 ];
 
