@@ -40,7 +40,7 @@ export const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-700 mt-8">
           <div className="mb-4 md:mb-0">© 2026 TeamSkeet Talent Agency</div>
           <div className="text-center md:text-right max-w-md">
-            Not affiliated with TeamSkeet. Talent are actors. Results not guaranteed. NFA.
+            Talent are actors. Results not guaranteed. NFA.
           </div>
         </div>
       </div>
