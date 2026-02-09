@@ -1,9 +1,9 @@
 import { Talent, Testimonial, ServicePackage } from './types';
 
 export const LINKS = {
-  PUMP: "https://pump.fun/board",
+  PUMP: "http://pump.fun/coin/41fxoLj3qbGf2YHuATaRrdwSWGq9ZWspkALn1Bz4pump",
   TWITTER: "https://x.com/TeamSkeet",
-  CONTRACT: "SKEETxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  CONTRACT: "41fxoLj3qbGf2YHuATaRrdwSWGq9ZWspkALn1Bz4pump"
 };
 
 export const TALENT_ROSTER: Talent[] = [
