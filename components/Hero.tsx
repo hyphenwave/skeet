@@ -50,7 +50,7 @@ export const Hero: React.FC = () => {
 
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-16">
             <a href="#browse">
-              <Button size="lg" className="min-w-[200px] shadow-[0_0_20px_rgba(76,217,100,0.3)]">Browse Talent</Button>
+              <Button size="lg" className="min-w-[200px] shadow-[0_0_20px_rgba(63,180,67,0.3)]">Browse Talent</Button>
             </a>
             <a href="#how-it-works">
                <Button size="lg" variant="outline" className="min-w-[200px]">How It Works</Button>

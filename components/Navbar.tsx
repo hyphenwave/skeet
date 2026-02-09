@@ -22,7 +22,7 @@ export const Navbar: React.FC = () => {
         <div className="flex flex-col items-start cursor-pointer group">
           <div className="text-2xl md:text-3xl font-black tracking-tighter leading-none">
             <span className="text-white">TEAM</span>
-            <span className="text-skeet-green group-hover:drop-shadow-[0_0_8px_rgba(76,217,100,0.8)] transition-all">SKEET</span>
+            <span className="text-skeet-green group-hover:drop-shadow-[0_0_8px_rgba(63,180,67,0.8)] transition-all">SKEET</span>
           </div>
           <span className="text-[10px] md:text-xs text-gray-400 font-bold tracking-[0.2em] ml-0.5">TALENT AGENCY</span>
         </div>

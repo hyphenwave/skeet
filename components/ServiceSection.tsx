@@ -17,7 +17,7 @@ export const ServiceSection: React.FC = () => {
             <div 
               key={pkg.id} 
               className={`relative bg-skeet-card flex flex-col p-6 md:p-8 border ${
-                pkg.isPopular ? 'border-skeet-green shadow-[0_0_20px_rgba(76,217,100,0.15)] transform md:-translate-y-4' : 
+                pkg.isPopular ? 'border-skeet-green shadow-[0_0_20px_rgba(63,180,67,0.15)] transform md:-translate-y-4' : 
                 pkg.isPremium ? 'border-skeet-gold' : 'border-gray-800'
               }`}
             >
