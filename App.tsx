@@ -1,5 +1,4 @@
 import React from 'react';
-import { Banner } from './components/Banner';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { HowItWorks } from './components/HowItWorks';
@@ -7,7 +6,6 @@ import { TalentCard } from './components/TalentCard';
 import { ServiceSection } from './components/ServiceSection';
 import { Testimonials } from './components/Testimonials';
 import { TokenSection } from './components/TokenSection';
-import { TrustTicker } from './components/TrustTicker';
 import { Footer } from './components/Footer';
 import { CookieConsent } from './components/CookieConsent';
 import { AvailableNow } from './components/AvailableNow';
@@ -17,7 +15,6 @@ import { ArrowRight } from 'lucide-react';
 const App: React.FC = () => {
   return (
     <div className="bg-black min-h-screen text-white font-sans selection:bg-skeet-green selection:text-black">
-      <Banner />
       <Navbar />
       
       <main>
@@ -49,7 +46,6 @@ const App: React.FC = () => {
         <ServiceSection />
         <Testimonials />
         <TokenSection />
-        <TrustTicker />
       </main>
 
       <Footer />

@@ -16,7 +16,7 @@ export const Navbar: React.FC = () => {
   );
 
   return (
-    <nav className="bg-skeet-dark border-b border-[#333] py-4 sticky top-[36px] z-40">
+    <nav className="bg-skeet-dark border-b border-[#333] py-4 sticky top-0 z-40">
       <div className="container mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex flex-col items-start cursor-pointer group">

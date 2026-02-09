@@ -83,7 +83,7 @@ export const AVAILABLE_NOW: Talent[] = [
     specialties: ["Hype Energy", "Diamond Hands"],
     rate: 45000,
     bio: "I turn red candles green just by showing up.",
-    isOnline: true,
+    isOnline: false,
     badges: ["VERIFIED"],
     imageGradient: "from-pink-400 to-rose-500",
     image: "/emma_hix.jpg"
@@ -96,7 +96,7 @@ export const AVAILABLE_NOW: Talent[] = [
     specialties: ["FOMO Generation", "Shilling"],
     rate: 38000,
     bio: "Your chart will look better after I'm done with it.",
-    isOnline: true,
+    isOnline: false,
     badges: ["RISING STAR"],
     imageGradient: "from-violet-400 to-purple-500",
     image: "/penelope_kay.jpg"
@@ -109,7 +109,7 @@ export const AVAILABLE_NOW: Talent[] = [
     specialties: ["Alpha Calls", "Whale Magnet"],
     rate: 120000,
     bio: "When I shill, whales listen. Simple as that.",
-    isOnline: true,
+    isOnline: false,
     badges: ["TOP RATED", "PREMIUM"],
     imageGradient: "from-amber-400 to-orange-500",
     image: "/lana_rhoades.jpg"
@@ -122,7 +122,7 @@ export const AVAILABLE_NOW: Talent[] = [
     specialties: ["Community Building", "AMA Host"],
     rate: 35000,
     bio: "I'll make your community feel like family. A degen family.",
-    isOnline: true,
+    isOnline: false,
     badges: ["VERIFIED"],
     imageGradient: "from-sky-400 to-blue-500",
     image: "/alexa_grace.jpg"
@@ -135,7 +135,7 @@ export const AVAILABLE_NOW: Talent[] = [
     specialties: ["Chart Reading", "Hopium Dealer"],
     rate: 40000,
     bio: "That's a triple bottom reversal. Trust the process.",
-    isOnline: true,
+    isOnline: false,
     badges: ["FAN FAVORITE"],
     imageGradient: "from-teal-400 to-cyan-500",
     image: "/anya_olsen.jpg"
@@ -148,7 +148,7 @@ export const AVAILABLE_NOW: Talent[] = [
     specialties: ["Pump Specialist", "Raid Leader"],
     rate: 55000,
     bio: "I don't just pump bags. I send them to the stratosphere.",
-    isOnline: true,
+    isOnline: false,
     badges: ["VERIFIED"],
     imageGradient: "from-red-400 to-pink-500",
     image: "/ella_knox.jpg"
@@ -161,7 +161,7 @@ export const AVAILABLE_NOW: Talent[] = [
     specialties: ["FUD Destroyer", "Hype Machine"],
     rate: 32000,
     bio: "FUD doesn't stand a chance when I'm on stream.",
-    isOnline: true,
+    isOnline: false,
     badges: ["BEST VALUE"],
     imageGradient: "from-lime-400 to-green-500",
     image: "/britney_amber.jpg"
@@ -174,7 +174,7 @@ export const AVAILABLE_NOW: Talent[] = [
     specialties: ["Emotional Support", "HODL Coach"],
     rate: 42000,
     bio: "I'll hold your hand through the dip. And the next one.",
-    isOnline: true,
+    isOnline: false,
     badges: ["VERIFIED"],
     imageGradient: "from-fuchsia-400 to-purple-500",
     image: "/becky_bandini.jpg"
@@ -187,7 +187,7 @@ export const AVAILABLE_NOW: Talent[] = [
     specialties: ["ASMR Shilling", "Whale Whisperer"],
     rate: 48000,
     bio: "My voice alone has caused three 100x pumps.",
-    isOnline: true,
+    isOnline: false,
     badges: ["RISING STAR"],
     imageGradient: "from-indigo-400 to-violet-500",
     image: "/mandy_muse.jpg"
@@ -200,7 +200,7 @@ export const AVAILABLE_NOW: Talent[] = [
     specialties: ["Alpha Calls", "Dev Intimidation"],
     rate: 95000,
     bio: "I've never seen a chart go down while I'm streaming. Ever.",
-    isOnline: true,
+    isOnline: false,
     badges: ["TOP RATED", "VERIFIED"],
     imageGradient: "from-yellow-400 to-amber-500",
     image: "/angela_white.jpg"
