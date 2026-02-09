@@ -2,7 +2,7 @@ import { Talent, Testimonial, ServicePackage } from './types';
 
 export const LINKS = {
   PUMP: "https://pump.fun/board",
-  TWITTER: "https://twitter.com",
+  TWITTER: "https://x.com/TeamSkeet",
   CONTRACT: "SKEETxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 };
 
